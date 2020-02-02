@@ -1,0 +1,27 @@
+{
+  "info": {
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+    "_postman_id": "47f0d7bf-d761-4243-8ad1-e56e6cf629fa",
+    "name": "测试"
+  },
+  "item": [
+    {
+      "name": "用户模块",
+      "item": [
+        {
+          "name": "登录",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata"
+            },
+            "url": "http://localhost:8080/login/",
+            "description": "登录",
+            "header": []
+          },
+          "description": "登录"
+        }
+      ]
+    }
+  ]
+}
